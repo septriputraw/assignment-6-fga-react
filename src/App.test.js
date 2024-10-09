@@ -9,5 +9,5 @@ test('renders App component with NavBar, image banner, and Footer', async () => 
   // image banner is rendered 
   const banner = screen.getByTestId('image-banner')
   expect(banner).toBeInTheDocument();
-  expect(banner).toHaveProperty('src', 'change-to-link-url')
+  expect(banner).toHaveProperty('src', 'https://www.instacart.com/company/wp-content/uploads/2022/11/cooking-statistics-hero.jpg')
 });
